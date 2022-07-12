@@ -1,0 +1,422 @@
+[
+  {
+    id: 'f1a6f72a-a2c1-4efc-96ff-9fe5bb130b73',
+    code: 'BBA018',
+    name: 'A Few Mats',
+    description: 'Professionally De-Mat tangled hair ',
+    duration: 0,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 20,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: true,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '7132f4a8-2fd4-483e-ab61-aedc36a2c761',
+    code: 'BBS002',
+    name: 'Bath 1',
+    description: 'Bath, Blow dry, nails, ear, and teeth',
+    duration: 30,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 70,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: true,
+      add_ons_list: [Array]
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '47ab7f62-1906-493a-b212-2d70380ecb5b',
+    code: 'BBS003',
+    name: 'Bath 2',
+    description: 'Bath, Blow dry, nails, ear, and teeth',
+    duration: 60,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 80,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: true,
+      add_ons_list: [Array]
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '1c8420a5-52df-4bfd-855b-e2535e8b450e',
+    code: 'BBS004',
+    name: 'Bath 3',
+    description: 'Bath, Blow dry, nails, ear, and teeth',
+    duration: 90,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 90,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: true,
+      add_ons_list: [Array]
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '323ad4cb-12f8-4f82-863b-2b55b1f93943',
+    code: 'BBS005',
+    name: 'Bath 4',
+    description: 'Bath, Blow dry, nails, ear, and teeth',
+    duration: 120,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 100,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: true,
+      add_ons_list: [Array]
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '1f601621-def7-4c82-9502-77d006eb6723',
+    code: 'BB031',
+    name: 'DeMatting 1',
+    description: '',
+    duration: 10,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 15,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '3ea74bde-45b2-46b8-8a91-8e55df8499b9',
+    code: 'BB032',
+    name: 'DeMatting 2',
+    description: '',
+    duration: 15,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 20,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: 'ac0bfba6-1c69-44f2-8d2c-ffaa683bd436',
+    code: 'BB033',
+    name: 'DeMatting 3',
+    description: '',
+    duration: 20,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 25,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: '3166fa61-cbe0-44ac-9c8a-ada0dad03093',
+    code: 'BB034',
+    name: 'DeMatting 4',
+    description: '',
+    duration: 25,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 30,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  },
+  {
+    id: 'b7a90477-1dc3-4071-af58-dc743c1b4690',
+    code: 'BB017',
+    name: 'De-Shedding 1',
+    description: '',
+    duration: 10,
+    recovery_time: 0,
+    price_info: {
+      currency_id: 148,
+      sale_price: 15,
+      tax_id: '',
+      ssg: 0,
+      include_tax: false,
+      demand_group_id: ''
+    },
+    additional_info: {
+      html_description: '',
+      category: [Object],
+      sub_category: [Object],
+      bussiness_unit: [Object]
+    },
+    catalog_info: {
+      show_in_catalog: true,
+      can_book: true,
+      show_price: true,
+      display_name: '',
+      display_price: '',
+      video_url: ''
+    },
+    variants_info: { is_variant: false, has_variant: false },
+    add_ons_info: {
+      is_add_on: false,
+      is_mandatory_add_on: false,
+      has_add_ons: false,
+      add_ons_list: null
+    },
+    image_paths: null,
+    parallel_groups: null,
+    parallel_service_groups: null,
+    prerequisites_info: null,
+    finishing_services_info: null
+  }
+]

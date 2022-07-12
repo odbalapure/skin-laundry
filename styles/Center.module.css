@@ -1,0 +1,19 @@
+.wrapper {
+  transition: transform 1s;
+}
+
+.wrapper:hover {
+  cursor: pointer;
+  transform: scale(1.02, 1.02);
+}
+
+.address {
+  border: 1px solid gray;
+  display: inline;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem;
+  color: azure;
+  background-color: gray;
+}

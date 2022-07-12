@@ -1,0 +1,49 @@
+[
+  {
+    id: '2e70224d-a868-47a6-8e56-ff30e5b3668c',
+    code: 'SM',
+    name: 'Santa Monica',
+    display_name: 'Bowie Barker',
+    description: '',
+    online_booking_start_date: '2021-08-25T00:00:00',
+    enable_parallel_services_at_center: true,
+    country: {
+      id: 225,
+      code: 'US',
+      name: 'United States',
+      phone_code: 1,
+      nationality: 'American'
+    },
+    state: { id: 40, code: 'US06', name: 'California', short_name: 'CA' },
+    location: { lattitude: 0, longitude: 0, time_zone: [Object] },
+    currency: {
+      id: 148,
+      name: 'United States Dollar',
+      code: 'USD',
+      symbol: '0024'
+    },
+    address_info: { address_1: '', address_2: '', city: 'Others', zip_code: '' },
+    settings: null,
+    additional_info: {
+      service_tax_no: null,
+      tin: null,
+      vat: null,
+      cst: null,
+      can_book: false,
+      collect_feedback: null,
+      services_available: false,
+      available_services: null,
+      unavailable_services: null,
+      is_add_ons_available: false,
+      feedback_link: null,
+      feedback_label: null,
+      is_global_tokenization_supported: false,
+      is_auto_pay_enabled_at_center: false,
+      cancellation_fee_duration: 0,
+      is_center_amenities_enabled: false,
+      center_amenities: ''
+    },
+    culture_code_at_center: 'en-US',
+    is_fbe_enabled: false
+  }
+]
