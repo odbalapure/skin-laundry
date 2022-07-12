@@ -34,7 +34,7 @@ export async function getStaticPaths() {
     });
 
     return {
-      fallback: true,
+      fallback: "blocking",
       // paths: [
       //   { params: { id: "2e70224d-a868-47a6-8e56-ff30e5b3668c" } },
       // ]

@@ -24,16 +24,17 @@ function Services(props) {
   const goToCheckout = () => {
     if (!service) {
       console.log("Service is not selected!");
+      return;
     } else {
       router.push({
         pathname: '/checkout',
         query: {
-          id: service.id,
-          name: service.name,
-          description: service.description,
-          code: service.code,
-          price: parseFloat(service.price_info.sale_price),
-          category: service.additional_info.category.name
+          id: service?.id,
+          name: service?.name,
+          description: service?.description,
+          code: service?.code,
+          price: parseFloat(service?.price_info.sale_price),
+          category: service?.additional_info.category.name
         }
       }, "/checkout");
     }
