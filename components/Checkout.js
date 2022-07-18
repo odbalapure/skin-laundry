@@ -5,9 +5,9 @@ function Checkout(props) {
   const router = useRouter();
 
   // Basic details
-  const [name, setName] = useState("");
-  const [mobile, setMobile] = useState("");
-  const [address, setAddress] = useState("");
+  // const [name, setName] = useState("");
+  // const [mobile, setMobile] = useState("");
+  // const [address, setAddress] = useState("");
 
   // Card details
   const [cardName, setCardName] = useState("");
@@ -23,16 +23,13 @@ function Checkout(props) {
    * @desc Make payment (DUMMY)
    */
   const makePayment = () => {
-    if (mobile.length < 10 || !(/^\d+$/.test(mobile))) {
-      setWarning("Some weird phone no. you got there...🥲");
-      setTimeout(() => setWarning(""), 5000);
-      return;
-    }
+    // if (mobile.length < 10 || !(/^\d+$/.test(mobile))) {
+    //   setWarning("Some weird phone no. you got there...🥲");
+    //   setTimeout(() => setWarning(""), 5000);
+    //   return;
+    // }
 
-    if (name === ""
-      || mobile === ""
-      || address === ""
-      || cardName === ""
+    if (cardName === ""
       || cardNumber === ""
       || month === ""
       || year === ""
@@ -65,7 +62,7 @@ function Checkout(props) {
     <div className="d-flex flex-wrap justify-content-around">
       {/* Accordion */}
       <div className="accordion mt-5 mb-3" id="accordionFlushExample" style={{ width: "60%" }}>
-        <div className="accordion-item">
+        {/* <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
             <button className="accordion-button collapsed fw-bold fs-5 bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Your basic details
@@ -120,14 +117,14 @@ function Checkout(props) {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingTwo">
             <button className="accordion-button collapsed fw-bold fs-5 bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
               Enter credit card details
             </button>
           </h2>
-          <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div id="flush-collapseTwo" className="accordion-collapse collapse show" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
             <div className="card m-4">
               <div className="card-header fw-bold">
                 Credit Card
