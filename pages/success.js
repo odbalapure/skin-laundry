@@ -9,7 +9,7 @@ function PaymentSuccess() {
 
   useEffect(() => {
     if (localStorage.getItem("skin_laundry")) {
-      setUser(JSON.parse(localStorage.getItem("skin_laundry")).user);
+      setUser(JSON.parse(localStorage.getItem("skin_laundry")).firstName);
     }
   }, []);
 
