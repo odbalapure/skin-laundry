@@ -43,9 +43,6 @@ function Checkout(props) {
     router.push({
       pathname: '/success',
       query: {
-        name,
-        mobile,
-        address,
         cardName,
         cardNumber,
         month,
